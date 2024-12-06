@@ -1,0 +1,62 @@
+# Haskell build artifacts
+*.hi
+*.o
+*.dyn_hi
+*.dyn_o
+
+# Binary executables
+*.exe
+*.dll
+*.so
+*.dylib
+
+# cabal build artifacts
+dist/
+dist-newstyle/
+cabal.sandbox.config
+cabal.project.local
+cabal.project.local~
+*.cabal-lts
+*.cabal-ltsbuild
+
+# stack build artifacts
+.stack-work/
+
+# Haskell IDE-specific files
+*.hie
+*.hie-bios
+*.ghc.environment.*
+*.ghc.session
+.ghc.environment.*
+
+# Tags and profiling
+tags
+TAGS
+*.prof
+*.aux
+*.hp
+*.eventlog
+
+# Rust build artifacts
+/target/
+*.rlib
+
+# Rust Cargo files
+Cargo.lock
+.cargo/
+/*.crate
+
+# Rust test artifacts
+*.profraw
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.~*
+*.swp
+*.swo
+*.tmp
+*~
+
