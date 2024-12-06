@@ -4,6 +4,9 @@
 *.dyn_hi
 *.dyn_o
 
+# Build output
+build/
+
 # Binary executables
 *.exe
 *.dll
